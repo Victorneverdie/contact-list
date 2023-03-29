@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="practica-1.js"></script>
+
+</head>
+<body style="background-color: gray;">
+
+
+<h1 style="margin-left: 20px;">Lista de contactos</h1>
+<div style="padding: 20px; font-size: 20px;">
+    <form>
+        <h3>Ingreso de usuario</h3>
+        Nombre: <input type="text" id="dato"><br>
+        Identidad: <input type="text" id="identidad"><br>
+        Celular: <input type="text" id="celular"><br>
+        <button type="button" onclick="capturarDato()">Mostrar</button>
+      </form>
+      
+
+      <form>
+        Digite el indice de ususario a eliminar:
+        <input type="text" id="indice">
+<button onclick="eliminarDato()">Eliminar</button>
+      </form>
+
+      <p id="resultado"></p>
+    </div>
+    
+</body>
+</html>
